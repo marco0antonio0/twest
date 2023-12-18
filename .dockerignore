@@ -1,0 +1,6 @@
+DockerFile
+.dockerignore
+node_modulesnpm-debug.log
+README.node_modules
+.next
+UsersmarcoAppDataRoamingnpm
