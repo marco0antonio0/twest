@@ -1,11 +1,13 @@
 const express = require("express");
 const app = express();
-const PORT = process.env.PORT || 80;
+const port = process.env.PORT || 3000;
 
+// Rota de exemplo
 app.get("/", (req, res) => {
-  res.send("Hello, Google Cloud Run!");
+  res.json({ message: "Hello, this is your Express API!" });
 });
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
+// Iniciar o servidor
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
 });
