@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Expõe a porta em que o aplicativo Express estará escutando
-EXPOSE 8080
+EXPOSE 80
 
 # Comando para iniciar o servidor Express
 CMD ["npm", "start"]
