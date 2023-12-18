@@ -18,7 +18,7 @@ COPY . .
 RUN npm run build
 
 # Exponha a porta em que o Next.js será executado
-EXPOSE 3000
+EXPOSE 4000
 
 # Defina a variável de ambiente para o modo de produção
 ENV NODE_ENV production
